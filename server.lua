@@ -21,7 +21,7 @@ function fuelVehicle(vehicle, player)
 end
 
 Citizen.CreateThread(function()
-    local blip = AddBlipForCoord(x, y, z)
+    local blip = AddBlipForCoord(265,-1261,30)
     SetBlipSprite(blip, 361) -- Imposta l'icona del blip come stazione di servizio
     SetBlipColour(blip, 5) -- Imposta il colore del blip
     SetBlipAsShortRange(blip, true) -- Imposta la distanza massima del blip
